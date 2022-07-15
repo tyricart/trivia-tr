@@ -1,0 +1,56 @@
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    text-align: center;
+    background-color:  rgb(213, 135, 233);
+    margin: 200px;
+    font-size: large;
+    border: solid;
+    border-radius: 25px 25px;
+    color: bisque;
+    background-image: url("https://pngtree.com/freepng/trivia-night-poster_6681263.html");
+}
+
+h1 {
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    font-size: 35px;
+}
+
+#true-button {
+    background-color: #f7bd89;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    border: 15px;
+    margin-right: 25px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#false-button {
+    background-color: rgb(145, 235, 223);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    margin-left: 25px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+#replay-button {
+    background-color: rgb(211, 114, 206);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
